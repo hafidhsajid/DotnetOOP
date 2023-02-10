@@ -13,4 +13,16 @@ namespace ConsoleUI // Note: actual namespace depends on the project name.
         }
     }
 
+    public class Toyota : Car
+    {
+
+        public Toyota()
+        {
+            this.Merk = "Toyota";
+            this.Model = "ToyotaModel";
+        }
+
+
+    }
+
 }
