@@ -25,4 +25,19 @@ namespace ConsoleUI // Note: actual namespace depends on the project name.
 
     }
 
+    public class Hyundai : Car
+    {
+
+        public void otomatis()
+        {
+            Console.WriteLine("NGENg");
+        }
+        public Hyundai()
+        {
+            this.Merk = "Hyundai";
+            this.Model = "HyundaiModel";
+        }
+        
+
+    }
 }
